@@ -1,0 +1,12 @@
+if (k > f) {  1
+  e++;  2
+  do {
+    i++;  3
+  } while (i < 5);  4
+}
+else {
+  g();  5
+  do {
+    func();  6
+  } while (true);  7
+}

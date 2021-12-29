@@ -1,0 +1,35 @@
+let elem = 0;
+let c = 2;
+if (elem == 0) {
+  for (var i = 1; i < 5; i++) {
+    for (var j = 0; j < 2; j++) {
+      for (var k = 0; k < 3; k++) {
+        while (c > 0) {
+          elem += i;
+          if (elem % 5 == 0) {
+            elem++;
+          }
+          else {
+            elem--;
+          }
+          elem += c;
+          c--;
+        }
+        switch (k) {
+          case 0:
+            elem *= 1;
+            break;
+          case 1:
+            elem *= 2;
+            break;
+          case 2:
+            elem *= 3;
+            break;
+        }
+      }
+    } 
+  }	
+}
+else {
+  elem = 1;
+}

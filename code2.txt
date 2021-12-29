@@ -1,0 +1,21 @@
+if (qwer) { 1
+  qwer = false; 2
+  if (asdf) { 3
+    q = 10;
+    if (qwer) { 4
+      g++; 5
+    }
+    else { 
+      g(); 7
+      if (qmnb) { 8
+        z++; 9
+      }
+    }
+  }
+}
+else {
+  for (int i = 0; i < q; i++) { 6
+    q(); 11
+  }
+}
+z++; 12

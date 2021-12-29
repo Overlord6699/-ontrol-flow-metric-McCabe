@@ -1,0 +1,37 @@
+let a = 2 + 2; // 1
+let b = 7;
+let c = 8;
+switch (a) {   
+  case 3: // 2            
+    alert("too few"); // 14
+    break;
+  case 4: // 3
+    for (let i = 0; i < 3; i++) { // 15
+      alert("exactly"); // 16
+    }
+  case 5: // 4
+    alert("too much"); // 13
+    break;
+  default:
+    alert("no such values"); // 5
+    alert("try this");
+    if (a > 6) { // 6
+      switch (a) {
+        case b: // 8
+          alert("a is equal to b"); // 12
+          break;
+        case c: // 9
+          alert("a is equal to c"); // 11
+          break;
+        default:
+          alert("a is equal to nothing"); // 10
+      }
+    }
+    else {
+      alert("a is equal to 6"); // 7
+    }
+}
+final(); // 17
+do {
+  alert("bye"); // 18
+} while (true); // 19
